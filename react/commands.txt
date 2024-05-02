@@ -26,3 +26,45 @@ rsync -avzhe ssh /home/sinhurry/PycharmProjects/YT-Django-DRF-Simple-Blog-Series
 Remote to Local:
 rsync -avzhe ssh <USER_NAME>@<SSH SERVER HOSTNAME>:<PYTHONANYWHERE_FILE_PATH> <LOCAL_DIRECTORY>
 rsync -avzhe ssh nightly@ssh.pythonanywhere.com:/home/nightly/YT-Django-DRF-Simple-Blog-Series-JWT-Part-3 /home/sinhurry/PycharmProjects/
+
+
+#from pythonanywhere to github
+
+git remote remove origin
+git remote add origin https://github.com/singhaidotnish/YT-Django-DRF-Simple-Blog-Series-JWT-Part-3.git
+git branch -M main
+
+git push -u origin main
+git remote set-url origin git@github.com:singhaidotnish/YT-Django-DRF-Simple-Blog-Series-JWT-Part-3.git
+git remote -v
+git push -u origin main
+
+
+git remote set-url origin singhaidotnish@github.com:singhaidotnish/YT-Django-DRF-Simple-Blog-Series-JWT-Part-3.git
+git remote -v
+git push -u origin main
+
+
+# generate key in pythonanywhere and add it to github so github knows who is sending data and will allow so
+ssh-add -l -E sha256
+ssh-keygen -t ed25519 -C "singhai.nish@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+cat ~/.ssh/id_ed25519.pub
+
+
+git remote set-url origin git@github.com:singhaidotnish/YT-Django-DRF-Simple-Blog-Series-JWT-Part-3.git
+git remote -v
+git branch -M main
+git push -u origin main
+
+Enumerating objects: 250, done.
+Counting objects: 100% (250/250), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (219/219), done.
+Writing objects: 100% (250/250), 884.78 KiB | 4.10 MiB/s, done.
+Total 250 (delta 80), reused 112 (delta 25)
+remote: Resolving deltas: 100% (80/80), done.
+To github.com:singhaidotnish/YT-Django-DRF-Simple-Blog-Series-JWT-Part-3.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
