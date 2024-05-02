@@ -3,8 +3,8 @@ autopep8==1.5.4
 coverage==5.2.1
 Django==3.1.1
 django-cors-headers==3.5.0
-djangorestframework==3.11.1
-djangorestframework-simplejwt==4.4.0
+djangorestframework
+djangorestframework-simplejwt
 pycodestyle==2.6.0
 PyJWT==1.7.1
 pytz==2020.1

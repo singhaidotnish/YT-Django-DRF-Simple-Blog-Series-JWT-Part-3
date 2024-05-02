@@ -7,7 +7,7 @@ from rest_framework_simplejwt.tokens import RefreshToken
 from rest_framework.permissions import AllowAny
 
 
-class CustomUserCreate(APIView):
+class CustomUserRegister(APIView):
     permission_classes = [AllowAny]
 
     def post(self, request, format='json'):

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0acb052f-8bb3-48ea-ae9d-bed0105fd74a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/django/blog/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/blog/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/blog/migrations/0002_auto_20200914_1537.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/django/commands.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/core/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/core/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/django/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/django/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/blogapi/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/blogapi/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/blogapi/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/blogapi/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/blogapi/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/blogapi/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/blogapi/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/blogapi/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/blogapi/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/blogapi/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/blogapi/src/components/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/blogapi/src/components/register.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2etY0wsF1Fqmkn9thKS7WVPfRAm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/sinhurry/PycharmProjects/YT-Django-DRF-Simple-Blog-Series-JWT-Part-3"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/react/blogapi" />
+      <recent name="$PROJECT_DIR$/react/blogapi/src" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0acb052f-8bb3-48ea-ae9d-bed0105fd74a" name="Changes" comment="" />
+      <created>1712725121818</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712725121818</updated>
+    </task>
+    <servers />
+  </component>
+</project>

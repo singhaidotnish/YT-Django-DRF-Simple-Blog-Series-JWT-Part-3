@@ -1,12 +1,28 @@
 npx create-react-app blogapi .
 cd blogapi
 npm start
-npm install react-router-dom
-npm install @material-ui/core
-pip install django-cors-headers
+npm install --global --force react-router-dom@5.2.0
+npm install --global --force @material-ui/core@4.11.0
+pip install django-cors-headers==3.5.0
 
-npm install axios
+npm install --global --force axios@0.20.0
 
 Info:
 Strict Mode
 StrictMode is a tool for highlighting potential problems in an application. Like Fragment , StrictMode does not render. React StrictMode is a feature added in version 16.3 and aimed to help us in finding potential problems in an application.
+
+
+sync commands
+
+Local to Remote: rsync [OPTION]... -e ssh [SRC]... [USER@]HOST:DEST
+Remote to Local: rsync [OPTION]... -e ssh [USER@]HOST:SRC... [DEST]
+
+
+Local to Remote:
+rsync -avzhe ssh <LOCAL_FILE_PATH> <USER_NAME>@<SSH SERVER HOSTNAME>:<DESTINATION_DIRECTORY>
+rsync -avzhe ssh /home/sinhurry/PycharmProjects/YT-Django-DRF-Simple-Blog-Series-JWT-Part-3 nightly@ssh.pythonanywhere.com:/home/nightly/
+
+
+Remote to Local:
+rsync -avzhe ssh <USER_NAME>@<SSH SERVER HOSTNAME>:<PYTHONANYWHERE_FILE_PATH> <LOCAL_DIRECTORY>
+rsync -avzhe ssh nightly@ssh.pythonanywhere.com:/home/nightly/YT-Django-DRF-Simple-Blog-Series-JWT-Part-3 /home/sinhurry/PycharmProjects/

@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const baseURL = 'http://127.0.0.1:8000/api/';
+// const baseURL = 'http://127.0.0.1:8000/api/';
+const baseURL = 'http://nightly.pythonanywhere.com/api/';
 
 const axiosInstance = axios.create({
 	baseURL: baseURL,
@@ -11,7 +12,7 @@ const axiosInstance = axios.create({
 			: null,
 		'Content-Type': 'application/json',
 		accept: 'application/json',
-	}, 
+	},
 });
 
 axiosInstance.interceptors.response.use(
