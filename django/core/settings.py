@@ -149,7 +149,7 @@ REST_FRAMEWORK = {
 # IsAuthenticatedOrReadOnly
 
 CORS_ALLOWED_ORIGINS = [
-    "http://nightly.pythonanywhere.com:3000"
+    "https://nightly.pythonanywhere.com"
 ]
 
 
@@ -158,7 +158,7 @@ CORS_ALLOW_HEADERS = default_headers + (
 
 )
 
-CORS_ORIGIN_WHITELIST = ("http://nightly.pythonanywhere.com/")
+CORS_ORIGIN_WHITELIST = ("http://localhost:8000", "https://nightly.pythonanywhere.com")
 
 
 # Custom user model
